@@ -6,19 +6,19 @@ The goal was to utilize python to automate sending emails via outlook.
 
 ## Modules Used
 
-###Mammoth
+### Mammoth
 
 for converting Docx files to HTML.
 
-###win32com
+### win32com
 
 for opening and sending emails through outlook.
 
-###csv
+### csv
 
 two coulmn CSV files was used to store names and the respective email address for that contact. 
 
-###time
+### time
 
 Setting a 15 minute timmer to avoid suspicion from the outlook domain owner.
 
