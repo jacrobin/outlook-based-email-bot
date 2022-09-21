@@ -49,7 +49,7 @@ with open('test.csv','r') as contacts_file:
         mail_Item.GetInspector
         mail_Item.To = row[1] # email of client
         mail_Item.CC = 'ccEmailExample@example.com'
-        mail_Item.Display() #Turn off after test, displays each email draft
+        mail_Item.Display() #Shows draft breifly before being sent NEEDS TO BE ON TO ALLOW THE DRAFT TO BE SENT
         #mail_Item.Send() MAKE SURE EVERYTHING IS RIGHT BEFORE STARTING
         print("Message Sent to: " + row[0] + " at " + row[1] + " Now Sleeping for 15 minutes")
         time.sleep(900)
